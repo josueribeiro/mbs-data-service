@@ -16,10 +16,10 @@ GitHub Holiday Coding Challenge 2019 `#vaadin` `#GitHubPack`
 
 # See the some features
 
-![app-mbs-data-service](file:///home/josue/personal-git/mbs-data-service/public/app-mbs-data-service.gif)
+![app-mbs-data-service](https://github.com/josueribeiro/mbs-data-service/blob/master/public/app-mbs-data-service.gif)
 
 ## See the Responsive Design
-![app-mbs-data-service](file:///home/josue/personal-git/mbs-data-service/public/responsive.gif)
+![app-mbs-data-service](https://github.com/josueribeiro/mbs-data-service/blob/master/public/responsive.gif)
 
 # Version 1.1
  - Data Analytics in charts
@@ -48,7 +48,7 @@ GitHub Holiday Coding Challenge 2019 `#vaadin` `#GitHubPack`
  - Import project on your favorite IDE (in my enviroment I used Eclipse).
  - Configure Apache Tomcat 9
  - Open http://localhost:8080/mbs-data-service in a browser
- ![running-app](file:///home/josue/personal-git/mbs-data-service/public/running-app.gif)
+ ![running-app](https://github.com/josueribeiro/mbs-data-service/blob/master/public/running-app.gif)
 
 
 This project is licenced under [MIT](https://github.com/josueribeiro/mbs-data-service/blob/master/LICENSE). 

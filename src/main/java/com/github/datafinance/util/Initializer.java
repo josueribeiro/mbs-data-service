@@ -19,17 +19,21 @@ public class Initializer implements ServletContextListener {
 		try {
 			log.info("*********** Initializing... " + sce.getServletContext().getContextPath() + " ************");
 			log.info(SystemProperties.get("base.dir"));
-			initDatabase();
+			initDatabase(false);
 		} catch (Exception e) {
 			log.error(e.getMessage(), e);
 		}
 	}
 
-	private void initDatabase() {
-		Thread t = new Thread(() -> {
+	private void initDatabase(Boolean asynchronous) {
+		if (asynchronous) {
+			Thread t = new Thread(() -> {
+				EMFUtil.initEMF(false);
+			});
+			t.start();
+		} else {
 			EMFUtil.initEMF(false);
-		});
-		t.start();
+		}
 	}
 
 	@Override
